@@ -13,7 +13,7 @@ GRANT SELECT, INSERT, UPDATE,               DELETE On `keyhelp_support`.`languag
 GRANT SELECT,         UPDATE                       ON `keyhelp_support`.`staff`             TO 'keyhelp_support'@'localhost';
 GRANT SELECT, INSERT, UPDATE,               DELETE On `keyhelp_support`.`tag_ticket`        TO 'keyhelp_support'@'localhost';
 GRANT SELECT, INSERT, UPDATE,               DELETE On `keyhelp_support`.`apikey`            TO 'keyhelp_support'@'localhost';
-GRANT SELECT  INSERT, UPDATE,               DELETE ON `keyhelp_support`.`sessioncookie`     TO 'keyhelp_support'@'localhost';
+GRANT SELECT, INSERT, UPDATE,               DELETE ON `keyhelp_support`.`sessioncookie`     TO 'keyhelp_support'@'localhost';
 GRANT SELECT, INSERT, UPDATE,               DELETE On `keyhelp_support`.`staff_ticket`      TO 'keyhelp_support'@'localhost';
 GRANT SELECT, INSERT, UPDATE,               DELETE On `keyhelp_support`.`ticket`            TO 'keyhelp_support'@'localhost';
 GRANT SELECT, INSERT, UPDATE,               DELETE On `keyhelp_support`.`tag`               TO 'keyhelp_support'@'localhost';
